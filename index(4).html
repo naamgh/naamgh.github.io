@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nam's Apps</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f4f5f7;color:#111317;font-family:'DM Mono',monospace}
+.page{min-height:100vh;padding:56px 24px 40px;display:flex;flex-direction:column;align-items:center}
+.wrap{width:100%;max-width:1120px;display:flex;flex-direction:column;gap:72px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px;font-size:13px;letter-spacing:.12em;color:#5c616b}
+.list{display:flex;flex-direction:column;border-top:1px solid #c9cdd4}
+a.row{display:flex;flex-wrap:wrap;align-items:center;gap:12px 32px;padding:32px 16px;border-bottom:1px solid #c9cdd4;text-decoration:none;color:#111317}
+a.row:hover{background:#1f3fd1;color:#fff}
+a.row:hover .meta{color:#dfe5ff}
+a.row:focus-visible{outline:2px solid #1f3fd1;outline-offset:-2px}
+.num{width:40px;font-size:14px}
+.name{flex:1 1 260px;min-width:0;font-size:48px;line-height:1.05;font-weight:500;letter-spacing:-.03em}
+.desc{flex:1 1 260px;min-width:0;font-size:14px;line-height:1.5;color:#4a4f58}
+.url{font-size:13px}
+.meta{color:#5c616b}
+.desc.meta{color:#4a4f58}
+@media (max-width:600px){.name{font-size:36px}}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="wrap">
+<div class="head">
+<div>NAMGH / APPS</div>
+<div>03 ENTRIES</div>
+</div>
+<div class="list">
+<a class="row" href="https://naamgh.github.io/taco">
+<div class="num meta">01</div>
+<div class="name">Taco</div>
+<div class="desc meta">Bike trainer for indoor rides</div>
+<div class="url meta">naamgh.github.io/taco</div>
+</a>
+<a class="row" href="https://naamgh.github.io/charge">
+<div class="num meta">02</div>
+<div class="name">Charge</div>
+<div class="desc meta">Gym and run trainer</div>
+<div class="url meta">naamgh.github.io/charge</div>
+</a>
+<a class="row" href="https://naamgh.github.io/strava">
+<div class="num meta">03</div>
+<div class="name">Overlay Studio</div>
+<div class="desc meta">Strava overlays for rides and runs</div>
+<div class="url meta">naamgh.github.io/strava</div>
+</a>
+</div>
+</div>
+</div>
+</body>
+</html>
